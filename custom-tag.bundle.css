@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&display=swap');
+
+body {
+          font-family: 'Poppins', sans-serif;
+}
+cs-body {
+          width: 20rem;
+          position: relative;
+}
+.light cs-btn{
+color:#333;
+background-color: rgb(239, 239, 239);
+}
+.light cs-con {
+   color:#333;
+background-color: rgb(239, 239, 239);
+}
+.light cs-li:hover {
+background-color: rgba(0,0,0,0.2);
+}
+.light .angle-down {
+      border-color: #333;
+}
+/*==========================CS-BTN=================*/
+cs-btn {
+          border-radius: 7px;
+          display: flex  !important;
+          justify-content: space-between !important;
+          padding: 10px 20px;
+          background-color: #2f3740;
+          color: #fff;
+          align-items: center !important;
+          cursor:pointer !important;
+          height: 30px;
+          width:20rem;
+          font-size: 16px;
+          letter-spacing: 2px;
+
+}
+
+.angle-down {
+          border: 0px solid;
+   border-left: 2px;
+   border-bottom: 2px;
+   border-color: rgb(255, 255, 255);
+margin-right: 10px;
+   border-style: solid;
+   width: 10px;
+   height: 10px;
+   transform: rotate(-45deg);
+   transition: .3s all ease !important;
+}
+.cs-btn h2 {
+          margin-left: 10px;
+}
+/*====================================CS-CON======================================*/
+cs-con {
+          background-color: #2f3740;
+          border-radius: 7px;
+          padding: 20px 20px;
+          width: 20rem;
+          color: #fff;
+          position: absolute;
+          display: none;
+          margin-top: 10px !important;
+}
+/*===============================CS-UL==============================*/
+cs-ul {
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+}
+/*==============================CS-LI==========================*/
+cs-li {
+          padding: 10px;
+          border-radius: 5px;
+          transition: .3s all ease;
+         cursor: pointer !important;
+}
+cs-li:hover {
+          background-color: #1c2026;
+}
+.active cs-con {
+          display: block;
+}
+.active .cs_btn_angle {
+          transform:rotate(135deg);
+}
